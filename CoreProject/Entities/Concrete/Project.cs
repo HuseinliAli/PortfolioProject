@@ -20,5 +20,7 @@ namespace Entities.Concrete
         public string ProjectImageUrl { get; set; }
 
         public string ProjectUrl { get; set; }
+
+        public Category Category { get; set; }
     }
 }

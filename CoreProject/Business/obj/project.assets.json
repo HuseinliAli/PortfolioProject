@@ -1763,6 +1763,35 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Access/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.12"
+        },
+        "compile": {
+          "bin/placeholder/Access.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Access.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.12"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
       }
     }
   },
@@ -6031,10 +6060,22 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Access/1.0.0": {
+      "type": "project",
+      "path": "../Access/Access.csproj",
+      "msbuildProject": "../Access/Access.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Access >= 1.0.0",
+      "Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.12",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.12",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.12",
@@ -6067,7 +6108,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Ali\\Desktop\\PortfolioProject\\CoreProject\\Access\\Access.csproj": {
+              "projectPath": "C:\\Users\\Ali\\Desktop\\PortfolioProject\\CoreProject\\Access\\Access.csproj"
+            },
+            "C:\\Users\\Ali\\Desktop\\PortfolioProject\\CoreProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Ali\\Desktop\\PortfolioProject\\CoreProject\\Entities\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
