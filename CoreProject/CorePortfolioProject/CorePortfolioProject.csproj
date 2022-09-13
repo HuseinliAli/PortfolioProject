@@ -7,6 +7,84 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\PortfolioBlog\.git\COMMIT_EDITMSG" />
+    <None Include="wwwroot\PortfolioBlog\.git\config" />
+    <None Include="wwwroot\PortfolioBlog\.git\description" />
+    <None Include="wwwroot\PortfolioBlog\.git\FETCH_HEAD" />
+    <None Include="wwwroot\PortfolioBlog\.git\HEAD" />
+    <None Include="wwwroot\PortfolioBlog\.git\hooks\applypatch-msg.sample" />
+    <None Include="wwwroot\PortfolioBlog\.git\hooks\commit-msg.sample" />
+    <None Include="wwwroot\PortfolioBlog\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="wwwroot\PortfolioBlog\.git\hooks\post-update.sample" />
+    <None Include="wwwroot\PortfolioBlog\.git\hooks\pre-applypatch.sample" />
+    <None Include="wwwroot\PortfolioBlog\.git\hooks\pre-commit.sample" />
+    <None Include="wwwroot\PortfolioBlog\.git\hooks\pre-merge-commit.sample" />
+    <None Include="wwwroot\PortfolioBlog\.git\hooks\pre-push.sample" />
+    <None Include="wwwroot\PortfolioBlog\.git\hooks\pre-rebase.sample" />
+    <None Include="wwwroot\PortfolioBlog\.git\hooks\pre-receive.sample" />
+    <None Include="wwwroot\PortfolioBlog\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="wwwroot\PortfolioBlog\.git\hooks\push-to-checkout.sample" />
+    <None Include="wwwroot\PortfolioBlog\.git\hooks\update.sample" />
+    <None Include="wwwroot\PortfolioBlog\.git\index" />
+    <None Include="wwwroot\PortfolioBlog\.git\info\exclude" />
+    <None Include="wwwroot\PortfolioBlog\.git\logs\HEAD" />
+    <None Include="wwwroot\PortfolioBlog\.git\logs\refs\heads\main" />
+    <None Include="wwwroot\PortfolioBlog\.git\logs\refs\remotes\origin\main" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\01\f96e49452e13e591d22d196c50b9908772cd07" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\03\3fc502bf4712477e193d95bf3e95de2bfbc33a" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\04\91e6f8ce6546f7b244d88ce908b9f132a87cc3" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\05\4fae60d7893693c2ad56dec75cf5e51a8acd74" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\0c\2a17ac8522211fb28f4810ac4d0b8662ad3616" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\0e\0c5a1c65c1cd9be1307daa9eb497ebd8aecf01" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\10\6e9ad1191ef0c2158c1a41faef0a0dcd1aaa0a" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\13\0807b5b4632bf924854e9f183f2a2c0757a23d" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\16\0070f56c7fa3a2896749f3bbd736818c8e112d" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\25\ec3b9f0702d935b689c95e94978ad4f00e9d99" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\33\8ca672799aeaa14445bc78a4a7d6442d917bb3" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\34\487f240a828a9ddb0c59dfc9b3789c3fb6ed2d" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\37\398c371da8aa1e07abb938e1702ea046844626" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\3f\9f2be3830f1dbb6ec5f75e3b7aef1307904833" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\41\8e2ef5b9c68365136e4a4652a74b80d2215489" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\43\be15f5b270a08fc4374671751b5d2d4747e807" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\45\819e0b2d864185666571f445ca6e630d2397ee" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\4c\2a5fc524e221703bea4b7172172868d8279de8" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\53\ba7c5046b6f3b70757df0c50f9b5328d153613" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\56\efbdba61ff12f90f864930b9a85eac0259666d" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\59\7ce2895b2cb847220db82112be288b2aa34084" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\5f\dba25cf7cf62841d41f867f3a2c367abd44ae8" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\64\26d428458414b4b1b4404a4abbb96b457f2630" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\69\fdb005e12f34afb96f5ab465815f50ce48ae7b" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\6b\47aad084c48702c9422adc970b3acf63e05851" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\74\efa831792e8d9842be753572e37430953017b0" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\7a\ad5e91857b4b15624192d25113bf5d13aba703" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\8f\319c0d33feda85524e5a70d57dbb6798b5033b" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\8f\73d4f8add891f7936d8186ae83d8b90173f1c9" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\8f\eaf533ac8ccd555b8339bdaf388289d052f368" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\93\aedafbedc2361438c5fda1370247d30fb3df68" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\94\25dfa4170809f40c8569690bbf0f0e78619c41" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\99\ae1aadca329ad43a67cdd6de0a5242295acfe7" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\9c\9ba1098ccb598e41353a525ecedeedfb764fec" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\ad\a698b7b8aef0f398990262e497620368c469aa" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\b5\6934c7247601f44b5a1765ba53ec268d7ceb76" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\bb\c25293c8e7fbd45ec79ed5ad96841249f7e7fb" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\c5\1c13ff36ab8d9860ed922682ab5e7d9c711aa0" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\cd\286eaea0c69413872e8ed838832f69ee85588b" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\d1\1d2cca84e41f77c66826a59926b1d149beb39a" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\d6\6ef419b70f23ada049b4e52226623115dd75c4" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\da\db89cfac45bb6f7992b3dfe754b6c21da820c5" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\ea\1c1d9a38a06c541daaa52cbb129f0b65944a46" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\ea\c9f722354527d1daa1b7b9647286582cd8482f" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\ed\e7450b366ba38e2bed05955948be5ec193a553" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\f0\4fbb32bd338d39374c7daa2d6b14d02ee327f0" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\f0\5b80e93636e2cd0ec244f0ee9a5b4597743122" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\fb\137c762a0340aedeeca7613b5bd8f60280d6b9" />
+    <None Include="wwwroot\PortfolioBlog\.git\objects\fd\63a01859a2a9efad8630d9275e313a4dec4ac0" />
+    <None Include="wwwroot\PortfolioBlog\.git\ORIG_HEAD" />
+    <None Include="wwwroot\PortfolioBlog\.git\refs\heads\main" />
+    <None Include="wwwroot\PortfolioBlog\.git\refs\remotes\origin\main" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.12">
       <PrivateAssets>all</PrivateAssets>
@@ -18,12 +96,19 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Access\Access.csproj" />
     <ProjectReference Include="..\Business\Business.csproj" />
     <ProjectReference Include="..\Entities\Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\PortfolioBlog\.git\objects\info\" />
+    <Folder Include="wwwroot\PortfolioBlog\.git\objects\pack\" />
+    <Folder Include="wwwroot\PortfolioBlog\.git\refs\tags\" />
   </ItemGroup>
 
 </Project>

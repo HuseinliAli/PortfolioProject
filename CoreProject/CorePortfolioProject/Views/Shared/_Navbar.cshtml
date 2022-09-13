@@ -1,0 +1,25 @@
+﻿<nav class="navbar navbar-expand-md navbar-light mb-5">
+    <div class="container">
+        <a href="/Home/Index" class="navbar-brand"><img src="~/PortfolioBlog/images/Logo.png" alt="" width="160"></a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <button class="btn" data-bs-toggle="modal" data-bs-target="#navbarModal">
+                    <i class="fa-solid fa-2x fa-bars"></i>
+                </button>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="modal fade" id="navbarModal" tabindex="-1" aria-labelledby="navbarModal" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen modal-dialog-centered text-center">
+        <div class="modal-content">
+            <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark text-light"></i></button>
+            <ul class="list-unstyled fw-bolder" id="navbar-elements-modal">
+                <li><a href="/Home/Index" class="link-secondary">Home</a></li>
+                <li><a href="/Home/Project" class="link-secondary">Projects</a></li>
+                <li><a href="/Home/About" class="link-secondary">About</a></li>
+                <li><a href="/Home/Contact" class="link-secondary">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

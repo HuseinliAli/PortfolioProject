@@ -1,8 +1,173 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_PortfolioLayout.cshtml";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<header>
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-md-3 align-self-center mb-3 text-center">
+                <img src="~/PortfolioBlog/images/ProfilePhotoOwn.jpg" alt="profile-photo" class="photo-profile rounded-circle">
+            </div>
+            <div class="col-md-5 align-self-center">
+                <div class="row">
+                    <div class="col-md-4 gradient-next-to-profile-photo"></div>
+                    <div class="col-md-8 fw-bolder  text-center mb-2 mt-2">This Is A Portfolio Of Mickel Harrow, A Art Director Based Out Of Washington</div>
+                </div>
+            </div>
+            <div class="col-md-4 align-self-center">
+                <div class="row">
+                    <div class="col-md-6 fw-bolder get-it-touch-link link-dark text-center">
+                        <a href="contact.html" target="_blank">
+                            GET IT TOUCH <!--link qoy-->
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="margin-spacing"></div>
+<div class="container-md project-cards-one-page">
+    <div class="row mb-5 mt-5">
+        <div class="col-md-7 order-md-2">
+            <div class="row">
+                <div class="col-md">
+                    <img src="~/PortfolioBlog/images/FreeWebUIKit.jpeg" alt="web-ui-kit" class="img-fluid shadow-lg">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5 align-self-center order-sm-1">
+            <div class="row mb-3">
+                <div class="col-md fx-bolder text-md-end text-center post-writings-head">Free Web Ui Kit</div>
+            </div>
+            <div class="row mb-3 mt-3">
+                <div class="col-md text-md-end text-center post-writings-description">Wonderful Serenity Has Taken Entire Soul Like These Sweet</div>
+            </div>
+            <div class="row mb-5 mt-3">
+                <div class="col-md text-md-end text-center post-writings-link">
+                    <a href="">VIEW PROJECT</a><!-- link qoy -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-5 mt-5">
+        <div class="col-md-7 ">
+            <div class="row">
+                <div class="col-md">
+                    <img src="~/PortfolioBlog/images/SkateGif.gif" alt="web-ui-kit" class="img-fluid shadow-lg">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5 align-self-center">
+            <div class="row mb-3">
+                <div class="col-md fx-bolder text-md-start text-center post-writings-head">Skater Intro</div>
+            </div>
+            <div class="row mb-3 mt-3">
+                <div class="col-md text-md-start text-center post-writings-description">Wonderful Serenity Has Taken Entire Soul Like These Sweet</div>
+            </div>
+            <div class="row mb-5 mt-3">
+                <div class="col-md text-md-start text-center post-writings-link">
+                    <a href="">VIEW PROJECT</a><!-- link qoy -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-5 mt-5">
+        <div class="col-md-7 order-md-2">
+            <div class="row">
+                <div class="col-md">
+                    <img src="~/PortfolioBlog/images/ArtsCulture.jpg" alt="web-ui-kit" class="img-fluid shadow-lg">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5 align-self-center order-sm-1">
+            <div class="row mb-3">
+                <div class="col-md fx-bolder text-md-end text-center post-writings-head">Arts Culture</div>
+            </div>
+            <div class="row mb-3 mt-3">
+                <div class="col-md text-md-end text-center post-writings-description">Wonderful Serenity Has Taken Entire Soul Like These Sweet</div>
+            </div>
+            <div class="row mb-5 mt-3">
+                <div class="col-md text-md-end text-center post-writings-link">
+                    <a href="">VIEW PROJECT</a><!-- link qoy -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-5 mt-5">
+        <div class="col-md-7 ">
+            <div class="row">
+                <div class="col-md">
+                    <img src="~/PortfolioBlog/images/BrandAgency.jpeg" alt="web-ui-kit" class="img-fluid shadow-lg">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5 align-self-center">
+            <div class="row mb-3">
+                <div class="col-md fx-bolder text-md-start text-center post-writings-head">Brand Agency</div>
+            </div>
+            <div class="row mb-3 mt-3">
+                <div class="col-md text-md-start text-center post-writings-description">Wonderful Serenity Has Taken Entire Soul Like These Sweet</div>
+            </div>
+            <div class="row mb-5 mt-3">
+                <div class="col-md text-md-start text-center post-writings-link">
+                    <a href="">VIEW PROJECT</a><!-- link qoy -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-5 mt-5">
+        <div class="col-md-7 order-md-2">
+            <div class="row">
+                <div class="col-md">
+                    <img src="~/PortfolioBlog/images/PersonalWeb.jpg" alt="web-ui-kit" class="img-fluid shadow-lg">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5 align-self-center order-sm-1">
+            <div class="row mb-3">
+                <div class="col-md fx-bolder text-md-end text-center post-writings-head">Igor Tsarenko Personal Web</div>
+            </div>
+            <div class="row mb-3 mt-3">
+                <div class="col-md text-md-end text-center post-writings-description">Wonderful Serenity Has Taken Entire Soul Like These Sweet</div>
+            </div>
+            <div class="row mb-5 mt-3">
+                <div class="col-md text-md-end text-center post-writings-link">
+                    <a href="">VIEW PROJECT</a><!-- link qoy -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-5 mt-5">
+        <div class="col-md-7 ">
+            <div class="row">
+                <div class="col-md">
+                    <img src="~/PortfolioBlog/images/BrandProposal.jpg" alt="web-ui-kit" class="img-fluid shadow-lg">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5 align-self-center">
+            <div class="row mb-3">
+                <div class="col-md fx-bolder text-md-start text-center post-writings-head">Brand Proposal</div>
+            </div>
+            <div class="row mb-3 mt-3">
+                <div class="col-md text-md-start text-center post-writings-description">Wonderful Serenity Has Taken Entire Soul Like These Sweet</div>
+            </div>
+            <div class="row mb-5 mt-3">
+                <div class="col-md text-md-start text-center post-writings-link">
+                    <a href="">VIEW PROJECT</a><!-- link qoy -->
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+
